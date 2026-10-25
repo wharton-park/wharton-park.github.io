@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#21180f">
+<title>Wharton Park Coffee Bar</title>
+<style>
+:root{--ink:#261c14;--cream:#f8f1e7;--paper:#fffdf9;--coffee:#6d4026;--gold:#b98745;--sage:#69745c;--line:#e7d8c6}
+*{box-sizing:border-box} body{margin:0;font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--cream);color:var(--ink)}
+header{background:linear-gradient(135deg,#21180f,#54321f);color:white;padding:42px 18px 32px}
+.wrap{max-width:1050px;margin:auto}.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.74rem;color:#e5c89e}
+h1{font-family:Georgia,serif;font-size:clamp(2.2rem,7vw,4.8rem);line-height:.93;margin:.35rem 0 .8rem;font-weight:500}
+.tag{max-width:650px;color:#f1dfc7;font-size:1.05rem}.scribe{margin-top:18px;font-family:Georgia,serif;font-style:italic;color:#dcb980}
+.controls{position:sticky;top:0;z-index:5;background:rgba(248,241,231,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:12px 16px}
+.controlrow{display:flex;gap:8px;max-width:1050px;margin:auto;overflow:auto}.search{flex:1;min-width:190px;border:1px solid var(--line);border-radius:999px;padding:11px 15px;background:white;font-size:16px}
+button{border:1px solid var(--line);background:white;border-radius:999px;padding:10px 14px;white-space:nowrap;color:var(--ink);cursor:pointer}
+button.active{background:var(--coffee);color:white;border-color:var(--coffee)}
+main{max-width:1050px;margin:25px auto;padding:0 16px 70px}
+.approvedbox{background:#f3ead8;border:1px solid #dbc39e;border-radius:18px;padding:18px;margin-bottom:24px}
+.approvedbox h2{font-family:Georgia,serif;margin:0 0 6px}.approvedbox p{margin:0;color:#654d36}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 5px 18px rgba(65,42,22,.05);cursor:pointer;transition:.15s}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(65,42,22,.09)}
+.cat{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--sage);font-weight:700}.card h3{font-family:Georgia,serif;font-size:1.35rem;margin:7px 0 5px}
+.style{color:#765d48;font-size:.88rem}.badge{display:inline-block;background:#e8d2a9;color:#5d3d17;border-radius:999px;padding:4px 8px;font-size:.72rem;font-weight:800;margin-top:10px}
+dialog{border:0;border-radius:22px;padding:0;max-width:620px;width:calc(100% - 24px);box-shadow:0 25px 80px #0005}dialog::backdrop{background:#1b130dc9;backdrop-filter:blur(3px)}
+.modal{padding:24px}.modal h2{font-family:Georgia,serif;font-size:2rem;margin:5px 35px 5px 0}.close{float:right;border:0;font-size:1.4rem;padding:5px 10px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.modal h4{text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--sage);margin:20px 0 7px}.modal ul,.modal ol{padding-left:20px;margin-top:6px}.modal li{margin:.35rem 0;line-height:1.4}
+.note{border-left:3px solid var(--gold);padding:9px 12px;background:#fbf5ea;border-radius:0 8px 8px 0}.field{background:#f0e5cf;border-radius:12px;padding:12px;margin-top:15px}
+footer{text-align:center;color:#806d5c;padding:0 15px 35px;font-family:Georgia,serif;font-style:italic}
+.empty{text-align:center;padding:50px;color:#7c6958;display:none}
+@media(max-width:540px){header{padding-top:30px}.cols{grid-template-columns:1fr}.modal{padding:19px}.card{padding:16px}}
+</style></head>
+<body>
+<header><div class="wrap"><div class="eyebrow">The House Recipe Book · Digital Edition</div><h1>Wharton Park<br>Coffee Bar</h1>
+<div class="tag">Coffee, cold brew, refreshers, fizz & the recipes that survived field testing.</div>
+<div class="scribe">📜 Faithfully maintained by The Wharton Park Coffee Bar Scribe</div></div></header>
+<div class="controls"><div class="controlrow"><input id="q" class="search" placeholder="Search drinks, syrups, ingredients…">
+<button class="active" data-cat="All">All</button><button data-cat="Approved">★ Approved</button><button data-cat="Espresso & Hot Coffee">Coffee</button><button data-cat="Cold Brew">Cold Brew</button><button data-cat="Refreshers & Teas">Refreshers</button><button data-cat="Sodas & Mocktails">Fizz</button><button data-cat="Cold Foams">Foams</button></div></div>
+<main>
+<section class="approvedbox"><h2>Wharton Park Approved ★</h2><p id="approvedLine">Field-tested favorites from the family.</p></section>
+<div id="grid" class="grid"></div><div id="empty" class="empty">No drinks found. The Scribe has searched the scrolls. 📜</div>
+</main>
+<footer>Good drinks. Good company. Right at home.</footer>
+<dialog id="dlg"><div class="modal"><button class="close" onclick="dlg.close()">×</button><div class="cat" id="mcat"></div><h2 id="mname"></h2><div class="style" id="mstyle"></div><div id="mbadge"></div>
+<div class="cols"><div><h4>Ingredients</h4><ul id="ming"></ul></div><div><h4>How to make it</h4><ol id="msteps"></ol></div></div>
+<h4>Bar note</h4><div class="note" id="mnote"></div><div class="field" id="mfield"></div></div></dialog>
+<script>
+let recipes=[], cat="All"; const grid=document.querySelector("#grid"), q=document.querySelector("#q"), dlg=document.querySelector("#dlg");
+fetch("recipes.json").then(r=>r.json()).then(x=>{recipes=x;render(); document.querySelector("#approvedLine").textContent=x.filter(r=>r.approved).map(r=>r.name).join(" · ");});
+document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{document.querySelectorAll("[data-cat]").forEach(x=>x.classList.remove("active"));b.classList.add("active");cat=b.dataset.cat;render()});
+q.oninput=render;
+function render(){let s=q.value.toLowerCase().trim();let out=recipes.filter(r=>(cat==="All"||cat==="Approved"&&r.approved||r.category===cat)&&(!s||JSON.stringify(r).toLowerCase().includes(s)));
+grid.innerHTML=out.map((r,i)=>`<article class="card" data-name="${esc(r.name)}"><div class="cat">${esc(r.category)}</div><h3>${esc(r.name)}</h3><div class="style">${esc(r.style)}</div>${r.approved?'<span class="badge">★ WHARTON PARK APPROVED</span>':''}</article>`).join("");
+document.querySelector("#empty").style.display=out.length?"none":"block";grid.querySelectorAll(".card").forEach(c=>c.onclick=()=>openRecipe(recipes.find(r=>r.name===c.dataset.name)))}
+function openRecipe(r){mcat.textContent=r.category;mname.textContent=r.name;mstyle.textContent=r.style;mbadge.innerHTML=r.approved?'<span class="badge">★ WHARTON PARK APPROVED</span>':'';
+ming.innerHTML=r.ingredients.map(x=>`<li>${esc(x)}</li>`).join("");msteps.innerHTML=r.steps.map(x=>`<li>${esc(x)}</li>`).join("");mnote.textContent=r.note;
+mfield.style.display=r.field_note?"block":"none";mfield.innerHTML=r.field_note?`<strong>Notes from the Field</strong><br>${esc(r.field_note)}`:"";dlg.showModal()}
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
+</script></body></html>
