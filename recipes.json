@@ -143,21 +143,23 @@
   {
     "category": "Espresso & Hot Coffee",
     "name": "Mexican Hot Chocolate Mocha Latte",
-    "style": "Keurig Strong · Hot",
+    "style": "Keurig Strong · Hot or Iced",
     "ingredients": [
-      "8 oz French roast coffee, Strong setting",
+      "8 oz French roast coffee, Strong setting (hot or chilled)",
       "3 tbsp Nesquik chocolate powder",
       "About 2 oz half-and-half",
       "A few swirls of Coffee Mate Italian Sweet Crème cold foam",
-      "A couple dashes of ground cinnamon"
+      "A couple dashes of ground cinnamon",
+      "Ice (for iced version)"
     ],
     "steps": [
       "Brew 8 oz French roast on Strong.",
-      "Stir Nesquik into a small amount of hot coffee until dissolved; add the remaining coffee.",
+      "Dissolve Nesquik in a small amount of hot coffee, then add the remaining coffee.",
       "Add half-and-half, a few swirls of Italian Sweet Crème cold foam, and cinnamon.",
-      "Blend everything briefly with a handheld electric frother until creamy and lightly foamy."
+      "For hot: blend briefly with a handheld electric frother until creamy and lightly foamy.",
+      "For iced: let the chocolate coffee cool, pour over ice, then add half-and-half, cold foam, and cinnamon; froth or stir to combine."
     ],
-    "note": "No extra cane sugar syrup needed. The third tablespoon of Nesquik, cinnamon, and sweet crème foam brought the chocolate flavor into balance.",
+    "note": "Approved hot; also works iced. Dissolve Nesquik while coffee is hot for a smooth iced version. No extra cane sugar syrup needed.",
     "approved": true,
     "field_note": "Jay approved — 'heaven'; Mexican hot chocolate mocha latte."
   },
