@@ -37,6 +37,28 @@
   },
   {
     "category": "Espresso & Hot Coffee",
+    "name": "Strawberry Dream Latte",
+    "style": "Nespresso · Iced",
+    "ingredients": [
+      "2 Nespresso espresso shots",
+      "2 tbsp strawberry Nesquik powder",
+      "5 oz cold 2% milk",
+      "1 oz half-and-half",
+      "Ice",
+      "A conservative swirl of Coffee Mate Italian Sweet Crème cold foam"
+    ],
+    "steps": [
+      "Mix strawberry Nesquik into cold 2% milk using a handheld frother until fully blended.",
+      "Stir in half-and-half, then pour over ice.",
+      "Pour the two espresso shots over the strawberry milk.",
+      "Finish with a conservative swirl of Italian Sweet Crème cold foam."
+    ],
+    "note": "Taste-tested with a light amount of Italian Sweet Crème cold foam; no additional syrup needed.",
+    "approved": true,
+    "field_note": "Jay approved — '¡No pos guau! ¡Qué rico!' Very well balanced."
+  },
+  {
+    "category": "Espresso & Hot Coffee",
     "name": "Iced Caramel Macchiato",
     "style": "Nespresso · Iced",
     "ingredients": [
