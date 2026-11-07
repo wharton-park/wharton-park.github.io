@@ -83,6 +83,30 @@
   },
   {
     "category": "Espresso & Hot Coffee",
+    "name": "Rocket Fuel",
+    "style": "Da Bomb K-Cup · Hot or Iced · Rocket Raccoon-Inspired",
+    "ingredients": [
+      "1 Java Factory Da Bomb double-caffeinated K-Cup (8 oz, Strong)",
+      "2 pumps brown sugar syrup",
+      "2 pumps caramel syrup",
+      "2 oz half-and-half",
+      "1 dash ground cinnamon",
+      "A small swirl of Coffee Mate Italian Sweet Crème cold foam",
+      "Ice (for iced version)"
+    ],
+    "steps": [
+      "Brew the Da Bomb K-Cup at 8 oz on the Keurig Strong setting.",
+      "Stir in brown sugar syrup and caramel syrup.",
+      "Add half-and-half and a dash of cinnamon.",
+      "For hot: add a small swirl of Italian Sweet Crème cold foam and briefly blend with a handheld frother.",
+      "For iced: cool the flavored coffee, pour over ice, add the half-and-half and cold foam, and stir or froth."
+    ],
+    "note": "Inspired by Rocket Raccoon from Guardians of the Galaxy: a double-caffeinated, overpowered, cobbled-together caramel–brown sugar coffee with a little attitude. 'Some assembly required. Explosions optional.' One double-caffeinated pod per serving.",
+    "approved": false,
+    "field_note": "Jay's predicted winner — added to the collection before the first taste test. Rocket Raccoon inspiration explicitly captured; approval pending tasting."
+  },
+  {
+    "category": "Espresso & Hot Coffee",
     "name": "Iced Caramel Macchiato",
     "style": "Nespresso · Iced",
     "ingredients": [
