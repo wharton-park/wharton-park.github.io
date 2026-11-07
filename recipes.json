@@ -59,6 +59,30 @@
   },
   {
     "category": "Espresso & Hot Coffee",
+    "name": "The Infinity Latte",
+    "style": "Nespresso · Iced · Experimental",
+    "ingredients": [
+      "2 espresso shots — Power Stone",
+      "2 tbsp strawberry Nesquik — Reality Stone",
+      "½ tbsp chocolate Nesquik — Soul Stone",
+      "5 oz cold 2% milk — Space Stone",
+      "1 oz half-and-half — Mind Stone",
+      "A conservative swirl of Coffee Mate Italian Sweet Crème cold foam — Time Stone",
+      "Ice"
+    ],
+    "steps": [
+      "Use a handheld frother to blend both Nesquik powders into the cold 2% milk until smooth.",
+      "Mix in the half-and-half, then pour over ice.",
+      "Pour the two espresso shots over the strawberry-chocolate milk.",
+      "Finish with a conservative swirl of Italian Sweet Crème cold foam.",
+      "Taste-test the balance before changing the chocolate amount."
+    ],
+    "note": "Six stones, one perfectly balanced universe. Experimental Neapolitan-inspired spin on the approved Strawberry Tiramisu Latte. 'Perfectly balanced, as all drinks should be.'",
+    "approved": false,
+    "field_note": "Untested — added for the name and the six Infinity Stones. Awaiting the snap (first taste test)."
+  },
+  {
+    "category": "Espresso & Hot Coffee",
     "name": "Iced Caramel Macchiato",
     "style": "Nespresso · Iced",
     "ingredients": [
