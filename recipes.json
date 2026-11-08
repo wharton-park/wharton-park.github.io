@@ -470,6 +470,27 @@
   },
   {
     "category": "Refreshers & Teas",
+    "name": "The Cybernetic Refresher",
+    "style": "Nebula-Inspired · Sparkling · Iced",
+    "ingredients": [
+      "6 oz grapefruit sparkling water",
+      "3 oz Sprite",
+      "2 pumps blue raspberry syrup",
+      "1 pump mango syrup",
+      "Ice"
+    ],
+    "steps": [
+      "Fill a tall glass generously with ice.",
+      "Add blue raspberry and mango syrups.",
+      "Pour in Sprite and stir gently.",
+      "Slowly top with grapefruit sparkling water and give one final gentle stir."
+    ],
+    "note": "Inspired by Nebula from Guardians of the Galaxy: electric blue, sharp, tart, and refreshing. A caffeine-free counterpart to Gamora's matcha latte.",
+    "approved": true,
+    "field_note": "Jay approved — 'very nice.'"
+  },
+  {
+    "category": "Refreshers & Teas",
     "name": "Tropical Grapefruit Fizz",
     "style": "Sparkling Water + Sprite",
     "ingredients": [
