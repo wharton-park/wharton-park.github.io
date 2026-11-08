@@ -213,25 +213,46 @@
   {
     "category": "Espresso & Hot Coffee",
     "name": "Mexican Hot Chocolate Mocha Latte",
-    "style": "Keurig Strong · Hot or Iced",
+    "style": "Keurig Strong · Hot",
     "ingredients": [
-      "8 oz French roast coffee, Strong setting (hot or chilled)",
+      "8 oz French roast coffee, Strong setting",
       "3 tbsp Nesquik chocolate powder",
       "About 2 oz half-and-half",
       "A few swirls of Coffee Mate Italian Sweet Crème cold foam",
-      "A couple dashes of ground cinnamon",
-      "Ice (for iced version)"
+      "A couple dashes of ground cinnamon"
     ],
     "steps": [
       "Brew 8 oz French roast on Strong.",
       "Dissolve Nesquik in a small amount of hot coffee, then add the remaining coffee.",
-      "Add half-and-half, a few swirls of Italian Sweet Crème cold foam, and cinnamon.",
-      "For hot: blend briefly with a handheld electric frother until creamy and lightly foamy.",
-      "For iced: let the chocolate coffee cool, pour over ice, then add half-and-half, cold foam, and cinnamon; froth or stir to combine."
+      "Add half-and-half, Italian Sweet Crème cold foam, and cinnamon.",
+      "Blend briefly with a handheld electric frother until creamy and lightly foamy."
     ],
-    "note": "Approved hot; also works iced. Dissolve Nesquik while coffee is hot for a smooth iced version. No extra cane sugar syrup needed.",
+    "note": "Original hot coffee version. No additional cane sugar syrup needed; espresso-based iced variation is listed separately.",
     "approved": true,
     "field_note": "Jay approved — 'heaven'; Mexican hot chocolate mocha latte."
+  },
+  {
+    "category": "Espresso & Hot Coffee",
+    "name": "Mexican Hot Chocolate Mocha Latte (Iced)",
+    "style": "Nespresso · Iced",
+    "ingredients": [
+      "2 espresso shots",
+      "5 oz cold milk",
+      "1 oz half-and-half",
+      "2½ tbsp Nesquik chocolate powder",
+      "2 swirls Coffee Mate Italian Sweet Crème cold foam",
+      "2 dashes ground cinnamon",
+      "Ice"
+    ],
+    "steps": [
+      "Brew 2 espresso shots and mix in Nesquik while the espresso is warm to dissolve smoothly.",
+      "Combine chocolate espresso with 5 oz milk and 1 oz half-and-half.",
+      "Pour over ice.",
+      "Add 2 swirls Italian Sweet Crème cold foam and 2 dashes of cinnamon; stir or froth gently to combine."
+    ],
+    "note": "Alissa's iced espresso-based version of the Mexican Hot Chocolate Mocha Latte. Separate proportions from the hot French-roast recipe.",
+    "approved": true,
+    "field_note": "Made for Alissa; reported 'very good.' Taste-tested iced version using espresso and 2½ tbsp Nesquik."
   },
   {
     "category": "Espresso & Hot Coffee",
