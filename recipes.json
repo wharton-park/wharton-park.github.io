@@ -935,5 +935,137 @@
     "note": "If aerosol, do not put into handheld or heated frother.",
     "approved": false,
     "field_note": ""
+  },
+  {
+    "category": "Matcha",
+    "name": "Vanilla Cloud Matcha",
+    "style": "Iced · Version 2 · Testing",
+    "ingredients": [
+      "3 g Matcha DNA powder (about 2 level DNA scoops; verify scoop weight once)",
+      "2 oz warm water",
+      "6 oz cold 2% milk",
+      "2 pumps vanilla syrup",
+      "Ice",
+      "Optional: a small layer of vanilla cold foam"
+    ],
+    "steps": [
+      "Sift matcha into a bowl, add 2 oz water at 170–175°F, and whisk with the bamboo chasen until smooth and lightly foamy.",
+      "Stir vanilla syrup into cold milk and pour over ice.",
+      "Pour prepared matcha over the milk; add a light swirl of vanilla cold foam if desired."
+    ],
+    "note": "Matcha DNA's 1.5 g serving tasted pleasantly grassy and earthy straight, but was lost in the original milk-based Cloud. This doubles the matcha without changing the other ratios.",
+    "approved": false,
+    "field_note": "1.5 g iced Vanilla Cloud tasted too mild. 3 g version is the next test; not yet approved."
+  },
+  {
+    "category": "Matcha",
+    "name": "Gamora's Galaxy Matcha",
+    "style": "Iced · Guardians Collection · Testing",
+    "ingredients": [
+      "3 g Matcha DNA powder (about 2 level DNA scoops; verify scoop weight once)",
+      "2 oz warm water",
+      "6 oz cold 2% milk",
+      "2 pumps vanilla syrup",
+      "Ice",
+      "2 oz prepared cold foam",
+      "½ pump blue raspberry syrup for foam (increase cautiously to 1 pump)"
+    ],
+    "steps": [
+      "Sift matcha into a bowl, add 2 oz water at 170–175°F, and whisk with the bamboo chasen until smooth and lightly foamy.",
+      "Stir vanilla into milk and pour over ice.",
+      "Pour prepared matcha over the milk.",
+      "Mix blue raspberry syrup into the cold foam, then gently spoon over matcha."
+    ],
+    "note": "The green matcha and blue-tinted foam nod to Gamora. Blue raspberry alone may make blue/teal foam, not a guaranteed purple; adjust color separately if desired.",
+    "approved": false,
+    "field_note": "Proposed recipe; not yet tasted. Companion to the approved Cybernetic Refresher."
+  },
+  {
+    "category": "Matcha",
+    "name": "Brown Sugar Matcha",
+    "style": "Iced · Testing",
+    "ingredients": [
+      "3 g Matcha DNA powder (about 2 level DNA scoops; verify scoop weight once)",
+      "2 oz warm water",
+      "5 oz cold 2% milk",
+      "1 oz half-and-half",
+      "2 pumps brown sugar syrup",
+      "Pinch ground cinnamon",
+      "Ice"
+    ],
+    "steps": [
+      "Sift matcha into a bowl, add 2 oz water at 170–175°F, and whisk with the bamboo chasen until smooth and lightly foamy.",
+      "Mix brown sugar syrup and cinnamon with milk and half-and-half.",
+      "Pour over ice and top with prepared matcha; stir before drinking."
+    ],
+    "note": "Richer, caramel-like matcha. Cinnamon should stay subtle so the tea is still recognizable.",
+    "approved": false,
+    "field_note": "Proposed 3 g recipe; taste-test pending."
+  },
+  {
+    "category": "Matcha",
+    "name": "Strawberry Matcha Dream",
+    "style": "Iced · Testing",
+    "ingredients": [
+      "3 g Matcha DNA powder (about 2 level DNA scoops; verify scoop weight once)",
+      "2 oz warm water",
+      "6 oz cold 2% milk",
+      "1 tbsp strawberry Nesquik",
+      "1 pump vanilla syrup",
+      "Ice",
+      "Optional: light Italian Sweet Crème cold foam"
+    ],
+    "steps": [
+      "Sift matcha into a bowl, add 2 oz water at 170–175°F, and whisk with the bamboo chasen until smooth and lightly foamy.",
+      "Froth strawberry Nesquik and vanilla into the cold milk until smooth.",
+      "Pour strawberry milk over ice, then slowly layer the prepared matcha.",
+      "Optionally finish with a small swirl of cold foam."
+    ],
+    "note": "Strawberry Tiramisu's tea-based cousin. The sweetened Nesquik may be enough without extra syrup; reduce vanilla if needed.",
+    "approved": false,
+    "field_note": "Proposed recipe, not yet taste-tested."
+  },
+  {
+    "category": "Matcha",
+    "name": "Mango Matcha Sunrise",
+    "style": "Iced · Testing",
+    "ingredients": [
+      "3 g Matcha DNA powder (about 2 level DNA scoops; verify scoop weight once)",
+      "2 oz warm water",
+      "5 oz cold 2% milk",
+      "2 pumps mango syrup",
+      "Optional: 1 pump cane sugar syrup",
+      "Ice"
+    ],
+    "steps": [
+      "Sift matcha into a bowl, add 2 oz water at 170–175°F, and whisk with the bamboo chasen until smooth and lightly foamy.",
+      "Stir mango syrup into the milk (add cane sugar only after tasting).",
+      "Pour over ice, slowly layer prepared matcha, and stir to drink."
+    ],
+    "note": "Fruit-forward and refreshing; use mango syrup already stocked at the bar.",
+    "approved": false,
+    "field_note": "Proposed recipe, not yet taste-tested."
+  },
+  {
+    "category": "Matcha",
+    "name": "Dirty Matcha",
+    "style": "Iced · Espresso + Matcha · Testing",
+    "ingredients": [
+      "3 g Matcha DNA powder (about 2 level DNA scoops; verify scoop weight once)",
+      "2 oz warm water",
+      "5 oz cold 2% milk",
+      "1 Nespresso espresso shot",
+      "2 pumps vanilla or caramel syrup",
+      "Ice"
+    ],
+    "steps": [
+      "Sift matcha into a bowl, add 2 oz water at 170–175°F, and whisk with the bamboo chasen until smooth and lightly foamy.",
+      "Stir syrup into the milk and pour over ice.",
+      "Add prepared matcha, then slowly pour one freshly brewed espresso shot over the top.",
+      "Stir before drinking."
+    ],
+    "note": "Coffee and matcha both need room to show up. Start at one shot; the combined caffeine may be substantial.",
+    "approved": false,
+    "field_note": "Proposed 3 g recipe, not yet taste-tested."
   }
 ]
