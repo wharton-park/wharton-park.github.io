@@ -1067,5 +1067,27 @@
     "note": "Wharton Park Approved with vanilla syrup. One espresso shot balances the 3 g matcha; the combined caffeine may be substantial. Caramel remains an untested variation.",
     "approved": true,
     "field_note": "Jay approved — 👍🏽👌🤙. Winning version: 3 g matcha (2 DNA scoops), 1 espresso shot, 5 oz milk, and 2 pumps vanilla syrup."
+  },
+  {
+    "category": "Matcha",
+    "name": "Double Dirty Matcha",
+    "style": "Nespresso · Iced · Extra Caffeine · Testing",
+    "ingredients": [
+      "6 g Matcha DNA powder (4 level DNA scoops)",
+      "2 oz warm water at 170–175°F (add a little more if needed for whisking)",
+      "5 oz cold 2% milk",
+      "2 Nespresso espresso shots",
+      "4 pumps vanilla syrup",
+      "Ice"
+    ],
+    "steps": [
+      "Sift the matcha and whisk with 2 oz warm water until smooth; add a splash more water only if needed.",
+      "Mix the four pumps of vanilla syrup into cold milk and pour over ice.",
+      "Add the prepared matcha, then pour the two espresso shots over the top.",
+      "Stir and taste."
+    ],
+    "note": "Double the matcha, espresso, and vanilla of the approved Dirty Matcha while keeping milk at 5 oz. Expect a stronger, more concentrated drink. Estimated caffeine roughly 230–320 mg, depending on capsules and matcha; avoid stacking with other high-caffeine drinks.",
+    "approved": false,
+    "field_note": "Jay made this for an extra morning kick. Taste verdict pending; do not mark approved yet."
   }
 ]
